@@ -1,15 +1,15 @@
-import './header.css'
+import {Header} from '../components/Header';
 import './TrackingPage.css'
 
 export function TrackingPage() {
   return (
     <>
       <title>Tracking</title>
-      <div className="header">
-        <div className="left-section">
-          <a href="/" className="header-link">
-            <img className="logo" src="images/logo-white.png" />
-            <img className="mobile-logo" src="images/mobile-logo-white.png" />
+      <Header />
+      <div className="tracking-page">
+        <div className="order-tracking">
+          <a className="back-to-orders-link link-primary" href="/orders">
+            View all orders
           </a>
         </div>
 
